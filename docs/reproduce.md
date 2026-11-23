@@ -2,6 +2,16 @@
 
 需要 git、uv、Python3.12；此阶段不需要 GPU 或 API 密钥。所有命令在 RetailAlign 根目录运行。不要把 .env 或 SSH 私钥复制入项目。
 
+首次在 A100/Linux 服务器获取项目：
+
+```bash
+git clone https://github.com/1193600423/RetailAlign.git
+cd RetailAlign
+python3 scripts/probe_environment.py
+```
+
+先查看探测输出，再执行下面的依赖安装步骤。探测脚本仅用标准库，不要求预先安装训练框架；它不启动训练或模型 API 调用。已有 checkout 后使用 `git pull --ff-only` 同步更新。
+
 ```bash
 mkdir -p vendor
 # vendor 目录未存在时执行：

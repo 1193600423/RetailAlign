@@ -12,3 +12,13 @@
 - [固定上游版本及数据哈希](manifests/upstream.json)
 
 原始模型 / SFT / SFT+GRPO 的成绩均为待测。开发任务与冻结评测任务分开；最终测试只在协议和检查点冻结后运行。训练依赖待 GPU 实测后单独锁定，不把框架安装通过表述成训练验证通过。
+
+在 A100 服务器上先下载项目并做只读环境检查（脚本仅使用 Python 标准库）：
+
+```bash
+git clone https://github.com/1193600423/RetailAlign.git
+cd RetailAlign
+python3 scripts/probe_environment.py
+```
+
+随后按[复现指南](docs/reproduce.md)下载固定版本的上游环境并安装依赖。`vendor/`、虚拟环境和模型权重不随本仓库上传；当前环境检查不会启动训练或模型 API 调用。
