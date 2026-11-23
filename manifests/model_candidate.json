@@ -1,0 +1,8 @@
+{
+  "model_id": "Qwen/Qwen3-0.6B",
+  "revision": null,
+  "license_from_model_card": "apache-2.0",
+  "status": "candidate_only_not_downloaded_or_run",
+  "metadata_fetch": "HF API curl failed during phase1; pin revision before any inference",
+  "thinking_candidate": false
+}

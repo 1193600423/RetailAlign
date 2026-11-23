@@ -1,0 +1,14 @@
+{
+  "python": "3.12.13 (main, Mar  3 2026, 12:39:30) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "torch": null,
+  "transformers": null,
+  "peft": null,
+  "trl": null,
+  "tau2": "2.0.0",
+  "litellm": "1.81.11",
+  "gpu": "nvidia-smi unavailable; remote RTX3060/A100 unverified",
+  "ram_bytes": 17179869184,
+  "disk_free_bytes": 237783478272
+}

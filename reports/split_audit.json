@@ -1,0 +1,683 @@
+{
+  "official_train": 74,
+  "official_test": 40,
+  "frozen": 50,
+  "train_frozen_overlap": 28,
+  "candidate_train": 46,
+  "train": 10,
+  "dev": 8,
+  "quarantine": 28,
+  "links": [
+    {
+      "a": "0",
+      "b": "1",
+      "reason": "entity",
+      "similarity": 0.9643
+    },
+    {
+      "a": "0",
+      "b": "2",
+      "reason": "entity",
+      "similarity": 0.5697
+    },
+    {
+      "a": "0",
+      "b": "3",
+      "reason": "entity",
+      "similarity": 0.5527
+    },
+    {
+      "a": "0",
+      "b": "4",
+      "reason": "entity",
+      "similarity": 0.5581
+    },
+    {
+      "a": "1",
+      "b": "2",
+      "reason": "entity",
+      "similarity": 0.561
+    },
+    {
+      "a": "1",
+      "b": "3",
+      "reason": "entity",
+      "similarity": 0.5542
+    },
+    {
+      "a": "1",
+      "b": "4",
+      "reason": "entity",
+      "similarity": 0.5578
+    },
+    {
+      "a": "2",
+      "b": "3",
+      "reason": "entity",
+      "similarity": 0.7995
+    },
+    {
+      "a": "2",
+      "b": "4",
+      "reason": "entity",
+      "similarity": 0.8014
+    },
+    {
+      "a": "3",
+      "b": "4",
+      "reason": "entity",
+      "similarity": 0.9886
+    },
+    {
+      "a": "5",
+      "b": "6",
+      "reason": "entity",
+      "similarity": 0.89
+    },
+    {
+      "a": "5",
+      "b": "7",
+      "reason": "entity",
+      "similarity": 0.8733
+    },
+    {
+      "a": "5",
+      "b": "8",
+      "reason": "entity",
+      "similarity": 0.8828
+    },
+    {
+      "a": "5",
+      "b": "9",
+      "reason": "entity",
+      "similarity": 0.8057
+    },
+    {
+      "a": "6",
+      "b": "7",
+      "reason": "entity",
+      "similarity": 0.9806
+    },
+    {
+      "a": "6",
+      "b": "8",
+      "reason": "entity",
+      "similarity": 0.9944
+    },
+    {
+      "a": "6",
+      "b": "9",
+      "reason": "entity",
+      "similarity": 0.9034
+    },
+    {
+      "a": "7",
+      "b": "8",
+      "reason": "entity",
+      "similarity": 0.973
+    },
+    {
+      "a": "7",
+      "b": "9",
+      "reason": "entity",
+      "similarity": 0.9229
+    },
+    {
+      "a": "8",
+      "b": "9",
+      "reason": "entity",
+      "similarity": 0.9104
+    },
+    {
+      "a": "10",
+      "b": "11",
+      "reason": "entity",
+      "similarity": 0.9324
+    },
+    {
+      "a": "10",
+      "b": "12",
+      "reason": "entity",
+      "similarity": 0.551
+    },
+    {
+      "a": "10",
+      "b": "13",
+      "reason": "entity",
+      "similarity": 0.5047
+    },
+    {
+      "a": "10",
+      "b": "14",
+      "reason": "entity",
+      "similarity": 0.4845
+    },
+    {
+      "a": "11",
+      "b": "12",
+      "reason": "entity",
+      "similarity": 0.5428
+    },
+    {
+      "a": "11",
+      "b": "13",
+      "reason": "entity",
+      "similarity": 0.6241
+    },
+    {
+      "a": "11",
+      "b": "14",
+      "reason": "entity",
+      "similarity": 0.6607
+    },
+    {
+      "a": "12",
+      "b": "13",
+      "reason": "entity",
+      "similarity": 0.9163
+    },
+    {
+      "a": "12",
+      "b": "14",
+      "reason": "entity",
+      "similarity": 0.8404
+    },
+    {
+      "a": "13",
+      "b": "14",
+      "reason": "entity",
+      "similarity": 0.9169
+    },
+    {
+      "a": "15",
+      "b": "16",
+      "reason": "entity",
+      "similarity": 0.7605
+    },
+    {
+      "a": "15",
+      "b": "17",
+      "reason": "entity",
+      "similarity": 0.8109
+    },
+    {
+      "a": "16",
+      "b": "17",
+      "reason": "entity",
+      "similarity": 0.8418
+    },
+    {
+      "a": "18",
+      "b": "19",
+      "reason": "entity",
+      "similarity": 0.6855
+    },
+    {
+      "a": "20",
+      "b": "21",
+      "reason": "entity",
+      "similarity": 0.5176
+    },
+    {
+      "a": "20",
+      "b": "22",
+      "reason": "entity",
+      "similarity": 0.4973
+    },
+    {
+      "a": "21",
+      "b": "22",
+      "reason": "entity",
+      "similarity": 0.6816
+    },
+    {
+      "a": "23",
+      "b": "24",
+      "reason": "entity",
+      "similarity": 0.6647
+    },
+    {
+      "a": "23",
+      "b": "70",
+      "reason": "entity",
+      "similarity": 0.6631
+    },
+    {
+      "a": "24",
+      "b": "70",
+      "reason": "entity",
+      "similarity": 0.5663
+    },
+    {
+      "a": "25",
+      "b": "26",
+      "reason": "entity",
+      "similarity": 0.9273
+    },
+    {
+      "a": "25",
+      "b": "27",
+      "reason": "entity",
+      "similarity": 0.6119
+    },
+    {
+      "a": "25",
+      "b": "28",
+      "reason": "entity",
+      "similarity": 0.4732
+    },
+    {
+      "a": "25",
+      "b": "29",
+      "reason": "entity",
+      "similarity": 0.5666
+    },
+    {
+      "a": "26",
+      "b": "27",
+      "reason": "entity",
+      "similarity": 0.6092
+    },
+    {
+      "a": "26",
+      "b": "28",
+      "reason": "entity",
+      "similarity": 0.5038
+    },
+    {
+      "a": "26",
+      "b": "29",
+      "reason": "entity",
+      "similarity": 0.5202
+    },
+    {
+      "a": "27",
+      "b": "28",
+      "reason": "entity",
+      "similarity": 0.5919
+    },
+    {
+      "a": "27",
+      "b": "29",
+      "reason": "entity",
+      "similarity": 0.5633
+    },
+    {
+      "a": "28",
+      "b": "29",
+      "reason": "entity",
+      "similarity": 0.419
+    },
+    {
+      "a": "30",
+      "b": "31",
+      "reason": "entity",
+      "similarity": 0.7672
+    },
+    {
+      "a": "30",
+      "b": "32",
+      "reason": "entity",
+      "similarity": 0.841
+    },
+    {
+      "a": "31",
+      "b": "32",
+      "reason": "entity",
+      "similarity": 0.9551
+    },
+    {
+      "a": "33",
+      "b": "34",
+      "reason": "entity",
+      "similarity": 0.9052
+    },
+    {
+      "a": "36",
+      "b": "37",
+      "reason": "entity",
+      "similarity": 0.8769
+    },
+    {
+      "a": "36",
+      "b": "38",
+      "reason": "entity",
+      "similarity": 0.9928
+    },
+    {
+      "a": "37",
+      "b": "38",
+      "reason": "entity",
+      "similarity": 0.8645
+    },
+    {
+      "a": "41",
+      "b": "42",
+      "reason": "entity",
+      "similarity": 0.7389
+    },
+    {
+      "a": "44",
+      "b": "49",
+      "reason": "entity",
+      "similarity": 0.5939
+    },
+    {
+      "a": "44",
+      "b": "105",
+      "reason": "entity",
+      "similarity": 0.4542
+    },
+    {
+      "a": "45",
+      "b": "46",
+      "reason": "entity",
+      "similarity": 0.6
+    },
+    {
+      "a": "45",
+      "b": "47",
+      "reason": "entity",
+      "similarity": 0.6196
+    },
+    {
+      "a": "45",
+      "b": "48",
+      "reason": "entity",
+      "similarity": 0.4619
+    },
+    {
+      "a": "46",
+      "b": "47",
+      "reason": "entity",
+      "similarity": 0.9768
+    },
+    {
+      "a": "46",
+      "b": "48",
+      "reason": "entity",
+      "similarity": 0.5094
+    },
+    {
+      "a": "47",
+      "b": "48",
+      "reason": "entity",
+      "similarity": 0.5322
+    },
+    {
+      "a": "49",
+      "b": "105",
+      "reason": "entity",
+      "similarity": 0.5935
+    },
+    {
+      "a": "51",
+      "b": "52",
+      "reason": "entity",
+      "similarity": 0.6069
+    },
+    {
+      "a": "51",
+      "b": "53",
+      "reason": "entity",
+      "similarity": 0.6581
+    },
+    {
+      "a": "51",
+      "b": "98",
+      "reason": "entity",
+      "similarity": 0.4202
+    },
+    {
+      "a": "51",
+      "b": "99",
+      "reason": "entity",
+      "similarity": 0.4142
+    },
+    {
+      "a": "52",
+      "b": "53",
+      "reason": "entity",
+      "similarity": 0.6728
+    },
+    {
+      "a": "52",
+      "b": "98",
+      "reason": "entity",
+      "similarity": 0.4111
+    },
+    {
+      "a": "52",
+      "b": "99",
+      "reason": "entity",
+      "similarity": 0.3951
+    },
+    {
+      "a": "53",
+      "b": "98",
+      "reason": "entity",
+      "similarity": 0.4042
+    },
+    {
+      "a": "53",
+      "b": "99",
+      "reason": "entity",
+      "similarity": 0.3827
+    },
+    {
+      "a": "54",
+      "b": "55",
+      "reason": "entity",
+      "similarity": 0.6252
+    },
+    {
+      "a": "56",
+      "b": "57",
+      "reason": "entity",
+      "similarity": 0.8433
+    },
+    {
+      "a": "56",
+      "b": "58",
+      "reason": "entity",
+      "similarity": 0.6349
+    },
+    {
+      "a": "57",
+      "b": "58",
+      "reason": "entity",
+      "similarity": 0.5879
+    },
+    {
+      "a": "60",
+      "b": "61",
+      "reason": "entity",
+      "similarity": 0.8319
+    },
+    {
+      "a": "60",
+      "b": "62",
+      "reason": "entity",
+      "similarity": 0.4444
+    },
+    {
+      "a": "60",
+      "b": "63",
+      "reason": "entity",
+      "similarity": 0.482
+    },
+    {
+      "a": "61",
+      "b": "62",
+      "reason": "entity",
+      "similarity": 0.432
+    },
+    {
+      "a": "61",
+      "b": "63",
+      "reason": "entity",
+      "similarity": 0.47
+    },
+    {
+      "a": "62",
+      "b": "63",
+      "reason": "entity",
+      "similarity": 0.936
+    },
+    {
+      "a": "64",
+      "b": "65",
+      "reason": "text_similarity",
+      "similarity": 0.8067
+    },
+    {
+      "a": "67",
+      "b": "68",
+      "reason": "entity",
+      "similarity": 0.9342
+    },
+    {
+      "a": "67",
+      "b": "101",
+      "reason": "entity",
+      "similarity": 0.4678
+    },
+    {
+      "a": "67",
+      "b": "102",
+      "reason": "entity",
+      "similarity": 0.502
+    },
+    {
+      "a": "68",
+      "b": "101",
+      "reason": "entity",
+      "similarity": 0.4832
+    },
+    {
+      "a": "68",
+      "b": "102",
+      "reason": "entity",
+      "similarity": 0.6246
+    },
+    {
+      "a": "71",
+      "b": "72",
+      "reason": "entity",
+      "similarity": 0.9106
+    },
+    {
+      "a": "78",
+      "b": "113",
+      "reason": "entity",
+      "similarity": 0.4705
+    },
+    {
+      "a": "79",
+      "b": "90",
+      "reason": "entity",
+      "similarity": 0.5655
+    },
+    {
+      "a": "82",
+      "b": "83",
+      "reason": "entity",
+      "similarity": 0.9619
+    },
+    {
+      "a": "82",
+      "b": "84",
+      "reason": "entity",
+      "similarity": 0.8691
+    },
+    {
+      "a": "83",
+      "b": "84",
+      "reason": "entity",
+      "similarity": 0.8622
+    },
+    {
+      "a": "85",
+      "b": "86",
+      "reason": "entity",
+      "similarity": 0.8341
+    },
+    {
+      "a": "85",
+      "b": "87",
+      "reason": "entity",
+      "similarity": 0.7432
+    },
+    {
+      "a": "86",
+      "b": "87",
+      "reason": "entity",
+      "similarity": 0.8204
+    },
+    {
+      "a": "91",
+      "b": "92",
+      "reason": "entity",
+      "similarity": 0.8204
+    },
+    {
+      "a": "93",
+      "b": "94",
+      "reason": "entity",
+      "similarity": 1.0
+    },
+    {
+      "a": "93",
+      "b": "95",
+      "reason": "entity",
+      "similarity": 0.8788
+    },
+    {
+      "a": "94",
+      "b": "95",
+      "reason": "entity",
+      "similarity": 0.8788
+    },
+    {
+      "a": "96",
+      "b": "97",
+      "reason": "entity",
+      "similarity": 0.8744
+    },
+    {
+      "a": "98",
+      "b": "99",
+      "reason": "entity",
+      "similarity": 0.8923
+    },
+    {
+      "a": "101",
+      "b": "102",
+      "reason": "entity",
+      "similarity": 0.9125
+    },
+    {
+      "a": "103",
+      "b": "104",
+      "reason": "entity",
+      "similarity": 0.8885
+    },
+    {
+      "a": "109",
+      "b": "110",
+      "reason": "entity",
+      "similarity": 0.9235
+    },
+    {
+      "a": "111",
+      "b": "112",
+      "reason": "entity",
+      "similarity": 0.877
+    }
+  ],
+  "limits": [
+    "Entity scan + normalized textual similarity only; semantic paraphrases require manual review.",
+    "Shared product catalogue and policy are environment assets, not independent tasks.",
+    "No final-test prose, reference actions or answers were emitted."
+  ]
+}

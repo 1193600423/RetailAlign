@@ -1,0 +1,6 @@
+2026-11-23 11:53:50.024 | DEBUG    | tau2.registry:<module>:297 - Voice dependencies not installed, skipping voice user registration
+tau2 Data Directory Checker
+========================================
+Data directory: /Users/peixin/Projects/agents/RetailAlign/vendor/tau2-bench/data
+✅ Data directory exists
+You can now run tau2 commands.

@@ -1,0 +1,2 @@
+date,entry,currency,actual_spend,approved_paid_amount,total_cap,remaining,notes
+2026-11-23,phase0_local_audit,CNY,0,0,500,500,Local compute and public downloads; no paid model or GPU runs

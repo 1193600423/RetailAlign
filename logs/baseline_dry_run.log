@@ -1,0 +1,68 @@
+{
+  "elicitation": null,
+  "communicate_scoring": {
+    "scorer": "semantic",
+    "judge": {
+      "model": "gpt-5.5",
+      "model_args": {
+        "reasoning_effort": "low"
+      },
+      "prompt_version": "communicate-semantic-v1"
+    }
+  },
+  "llm_user": "gpt-4.1-2025-04-14",
+  "llm_args_user": {
+    "temperature": 0.0,
+    "max_tokens": 512
+  },
+  "num_trials": 1,
+  "max_errors": 3,
+  "timeout": 180.0,
+  "max_concurrency": 1,
+  "workers": 0,
+  "provider_limits": null,
+  "seed": 300,
+  "log_level": "ERROR",
+  "verbose_logs": false,
+  "max_retries": 3,
+  "retry_delay": 1.0,
+  "auto_resume": false,
+  "auto_review": false,
+  "review_mode": "full",
+  "review_model": "claude-opus-4-5",
+  "hallucination_retries": 3,
+  "is_remote": false,
+  "retrieval_config": null,
+  "retrieval_config_kwargs": null,
+  "agent": "llm_agent",
+  "llm_agent": "openai/retailalign-0.6b",
+  "llm_args_agent": {
+    "api_base": "http://127.0.0.1:8000/v1",
+    "api_key": "local-unused",
+    "temperature": 0.0,
+    "max_tokens": 512
+  },
+  "user": "user_simulator",
+  "max_steps": 80,
+  "enforce_communication_protocol": false,
+  "text_streaming_config": null,
+  "language": "en",
+  "pack_extension": null,
+  "localize_db": null,
+  "language_artifacts": null,
+  "benchmark": null,
+  "domain": "retail",
+  "task_set_name": null,
+  "task_split_name": "base",
+  "task_ids": [
+    "75",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "num_tasks": null,
+  "save_to": "retailalign-base-dev-pilot-v1"
+}
+2026-11-23 11:57:23.756 | DEBUG    | tau2.registry:<module>:297 - Voice dependencies not installed, skipping voice user registration

@@ -1,0 +1,61 @@
+{
+  "train": {
+    "independent_task_ids": 10,
+    "entity_or_similarity_groups": 8,
+    "reference_action_counts": [
+      7,
+      5,
+      4,
+      1,
+      2,
+      1,
+      2,
+      2,
+      3,
+      3
+    ],
+    "reference_tool_coverage": {
+      "find_user_id_by_email": 2,
+      "get_user_details": 3,
+      "get_order_details": 4,
+      "get_product_details": 1,
+      "return_delivered_order_items": 5,
+      "modify_pending_order_items": 3,
+      "find_user_id_by_name_zip": 2,
+      "modify_user_address": 3,
+      "cancel_pending_order": 4,
+      "exchange_delivered_order_items": 1,
+      "modify_pending_order_address": 2
+    },
+    "rollout_count": 0,
+    "derived_scenarios": 0,
+    "warning": "Reference-action counts are not observed model trajectory lengths; no trajectory token/duplicate statistics yet."
+  },
+  "dev": {
+    "independent_task_ids": 8,
+    "entity_or_similarity_groups": 4,
+    "reference_action_counts": [
+      5,
+      5,
+      11,
+      12,
+      13,
+      1,
+      2,
+      1
+    ],
+    "reference_tool_coverage": {
+      "find_user_id_by_name_zip": 5,
+      "get_order_details": 17,
+      "get_product_details": 13,
+      "exchange_delivered_order_items": 4,
+      "get_user_details": 5,
+      "return_delivered_order_items": 1,
+      "modify_pending_order_items": 3,
+      "cancel_pending_order": 2
+    },
+    "rollout_count": 0,
+    "derived_scenarios": 0,
+    "warning": "Reference-action counts are not observed model trajectory lengths; no trajectory token/duplicate statistics yet."
+  }
+}
